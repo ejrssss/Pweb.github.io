@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <style>
+
+    </style>
+    <section class="hero">
+        <div class="logo">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa- fa-fade">ME</i>
+                </div>
+                <nav>
+                    <div class="hamb">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="abouts.html">About Me</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="contact.html">Contact Information</a></li>
+                    </ul>
+                </nav>
+        </div>
+        </header>
+        <div class="container">
+
+            <div class="form">
+                <div class="contact-info">
+                    <h3 class="title">Welcome</h3>
+                    <p class="text">Less than 12-hours response to you.</p>
+
+                    <div class="info">
+                        <div class="information">
+
+                            <p>Nueva Ecija, Aliaga 3111</p>
+                        </div>
+                        <div class="information">
+
+                            <p>ejreyes214@gmail.com</p>
+                        </div>
+                        <div class="information">
+
+                            <p>+63 926 677 0172</p>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <p>Contact me :</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/Ejrsss">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/ejrsxgojo/">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <span class="circle one"></span>
+                    <span class="circle two"></span>
+
+                    <form method="POST" action="https://api.slapform.com/wMIGxr7uW">
+                        <h3 class="title">Contact me</h3>
+                        <div class="input-container">
+                            <input type="text" name="name" class="input" />
+                            <label for="">Username</label>
+                            <span>Username</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="email" class="input" />
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="tel" name="phone" class="input" />
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea name="message" class="input"></textarea>
+                            <label for="">Message</label>
+                            <span>Message</span>
+                        </div>
+                        <div>
+                            <input type="submit" value="submit" class="btn" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+
+        const inputs = document.querySelectorAll(".input");
+
+        function focusFunc() {
+            let parent = this.parentNode;
+            parent.classList.add("focus");
+        }
+
+        function blurFunc() {
+            let parent = this.parentNode;
+            if (this.value == "") {
+                parent.classList.remove("focus");
+            }
+        }
+
+        inputs.forEach((input) => {
+            input.addEventListener("focus", focusFunc);
+            input.addEventListener("blur", blurFunc);
+        });
+
+
+    </script>
+</body>
+
+</html>
+
+
+</html>
