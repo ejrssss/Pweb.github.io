@@ -4,7 +4,7 @@ A custom website for myself.
 
 ## Lives Links (github Pages)
 
-- https://github.com/ejrsss/ejrsss.github.io
+- https://github.com/ejrssss/ejrssss.github.io
 
 ## PL Used
 
